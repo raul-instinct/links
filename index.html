@@ -69,7 +69,7 @@ footer{margin-top:28px;color:var(--muted);font-size:.78rem;text-align:center}
   function draw(){
     const s=q.value.trim().toLowerCase();
     const rows=data.filter(x=>(!active||(x.tags||[]).includes(active))&&(!s||[x.title,x.description,x.author,x.url,...(x.tags||[])].join(' ').toLowerCase().includes(s)));
-    count.textContent=rows.length===data.length?`${data.length} לינקים`:`${rows.length} מתוך ${data.length}`;
+    count.textContent=rows.length===data.length?(data.length===1?'לינק אחד':`${data.length} לינקים`):`${rows.length} מתוך ${data.length}`;
     list.innerHTML=rows.length?rows.map(x=>`<li class="card">
       <h2><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></h2>
       <p class="desc">${esc(x.description||'')}</p>
