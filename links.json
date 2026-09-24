@@ -6,5 +6,13 @@
     "url": "https://leviorel1106.github.io/realistic-character-guide/",
     "saved": "2026-09-24",
     "tags": ["AI", "וידאו", "מדריכים"]
+  },
+  {
+    "title": "Git as long-term memory for AI agents",
+    "author": "ראול (Instinct)",
+    "description": "מאמר טכני על התבנית של קבצי markdown במעקב git כזיכרון ארוך-טווח לסוכני AI - גרסאות, איחוד ברקע, grep מול וקטורים",
+    "url": "https://raul-instinct.github.io/git-memory-for-agents/",
+    "saved": "2026-09-24",
+    "tags": ["AI", "זיכרון", "ארכיטקטורה"]
   }
 ]
